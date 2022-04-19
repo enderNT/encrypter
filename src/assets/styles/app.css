@@ -1,0 +1,89 @@
+.app {
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    background: #E5E5E5;
+}
+
+.appEncrypter {
+    width: 65vw;
+}
+
+.appEncrypter__mainMessage {
+    width: 577px;
+    height: 48px;
+}
+
+.appEncrypter__footerButtons {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    width: 680px;
+    height: 67px;
+    left: 240px;
+    top: 885px;
+}
+
+#button__Encrypt {
+    display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 24px;
+
+width: 328px;
+height: 67px;
+left: 0px;
+top: 0px;
+
+/* Dark blue/dark-blue-300 */
+
+background: #0A3871;
+border-radius: 24px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 24px;
+}
+
+#button__Desencrypt {
+    display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 24px;
+
+width: 328px;
+height: 67px;
+left: 0px;
+top: 0px;
+
+/* Dark blue/dark-blue-300 */
+
+background: #D8DFE8;
+border-radius: 24px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 24px;
+}
+
+span {
+padding: 0px;
+width: 229px;
+height: 18px;
+left: 240px;
+top: 851px;
+}
+
+.appEncrypted {
+    width: 25vw;
+    background-color: white;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+}
